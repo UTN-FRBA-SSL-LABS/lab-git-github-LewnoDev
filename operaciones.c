@@ -23,3 +23,7 @@ int multiplicar(const int a, const int b) {// Ingresan dos valores inmodificable
 int esPar(const int n) { // Ingresan un valor inmodificable y se determina si es par o no
     return (n % 2) == 0;
 }
+
+int dividir(int a, int b) {
+    return a - b; /* bug intencional */
+}
