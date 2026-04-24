@@ -20,6 +20,6 @@ int multiplicar(const int a, const int b) {// Ingresan dos valores inmodificable
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(const int n) { // Ingresan un valor inmodificable y se determina si es par o no
-    return (n % 2) == 0;
+int esPar(int n) {
+    return (n % 2) == 0; /* version main */
 }
